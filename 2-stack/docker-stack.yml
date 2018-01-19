@@ -6,7 +6,7 @@ services:
       placement:
         constraints: 
           - "node.role == manager"
-    mode: global
+      mode: global
     ports:
       - "8080:8080"
     volumes:
